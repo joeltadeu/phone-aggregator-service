@@ -1,17 +1,3 @@
-# pnia v1.1
-
-This exercise is part of Talkdesk's recruitment process. Please do not share it
-publicly.
-
-It is up to you how much effort you put into it and exactly what you deliver. We
-would expect you to spend two to three hours on it, and the result to be a piece
-of working code that will comply exactly with the interface described below and
-can be deployed by following one of the paths under the deployment section.
-
-It is also up to you whether there's any need for documentation (or anything
-else), depending on the problem you've been assigned or the method you chose to
-solve it.
-
 # Problem: phone number information aggregator
 
 The goal of this exercise is to build a phone information aggregator API. This
@@ -254,27 +240,3 @@ Heroku supports a broad range of languages. For most of them, getting
 something running is as simple as creating a `.git` repository, creating a
 project on heroku and `git push`ing the code to heroku. To get started we
 recommend [this page](https://devcenter.heroku.com/start).
-
-## What happens after you submit the exercise
-
-Part of this exercise's grading will be done through automatic tests. To make
-sure the inputs and outputs of the API match the test's expectations, we have
-bundled a simple `validate.sh` script that will exercise the interface and do a
-basic test.
-
-The automatic tests will be used to determine whether the exercise:
-1. is immediately accepted (if it excels on the tests)
-2. is immediately rejected (if it doesn't pass basic tests)
-3. is manually reviewed (none of the above).
-
-The manual review will value the same parameters we value on our day-to-day code
-reviews:
-* Clarity of the solution
-* Correctness of the output
-* Adequacy of the algorithms and data structures to the problem
-* Adherence to best practices
-* Error handling / resiliency
-* Safety in the face of concurrency
-
-In addition to the above, if the challenge is accepted, expect for it to be
-explored in more detailed discussions in further stages of the hiring process.
